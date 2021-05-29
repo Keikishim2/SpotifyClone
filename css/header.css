@@ -23,7 +23,6 @@ header{
 .header-logo img{
   width: 9rem;
 }
-
 /*nav mobile / New added line */
 .nav-mobile {
   display: flex;
@@ -51,7 +50,6 @@ header{
 .profile:hover > svg {
   fill: #1ed760;
 }
-<<<<<<< HEAD
 .hamburger-menu {
   width: 2rem;
   height: 3rem;
@@ -65,7 +63,6 @@ header{
   position: relative;
   transition: all 0.4s ease;
 }
-/* Hamburger menu lines */
 .hamburger-menu div,
 .hamburger-menu div::before,
 .hamburger-menu div::after {
@@ -75,18 +72,14 @@ header{
   background: #ffffff;
   border-radius: 1rem;
 }
-/* Top hamburger menu line */
 .hamburger-menu div::before {
   position: absolute;
   top: -0.7rem;
 }
-/* Bottom hamburger menu line */
 .hamburger-menu div::after {
   position: absolute;
   top: 0.7rem;
 }
-=======
->>>>>>> d6bf6cf60ade0ec873043b4a27b6c6fd06b5c476
 .nav-desktop{
   display: none;
 }

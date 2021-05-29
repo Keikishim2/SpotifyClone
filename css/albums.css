@@ -92,7 +92,6 @@
 }
 
 /* Song title and artist name */
-/* This code will avoid text from wrapping to the next line and it will add an ellipsis at the end */
 .album-info h2,
 .album-info h4 {
   white-space: nowrap;
