@@ -1,7 +1,7 @@
 
 header{
   height: 5.5rem;
-  background: var(--black);
+  background: #000000;
   width: 100%;
   position: fixed;
   z-index: 999;
@@ -24,7 +24,7 @@ header{
   width: 9rem;
 }
 .profile{
-  border: 2px solid var(--white);
+  border: 2px solid #ffffff;
   width: 3.5rem;
   height: 3.5rem;
   border-radius: 50%;
@@ -36,9 +36,12 @@ header{
 }
 .profile svg{
   width: 1.6rem;
-  fill: var(--white);
+  fill: #ffffff;
 }
 .hamburger-menu{
+  display: none;
+}
+/* .hamburger-menu{
   width: 2rem;
   height: 3rem;
   position: absolute;
@@ -57,7 +60,7 @@ header{
   content: "";
   height: 0.3rem;
   width: 100%;
-  background: var(--white);
+  background: #ffffff;
   border-radius: 1rem;
 }
 .hamburger-menu div::before{
@@ -67,7 +70,8 @@ header{
 .hamburger-menu div::after{
   position: absolute;
   top: 0.7rem;
-}
+} */
+
 .nav-desktop{
   display: none;
 }
@@ -77,18 +81,18 @@ header{
 }
 .nav-desktop ul li{
   font-size: 1.5rem;
-  color: var(--white);
+  color: #ffffff;
   margin-right: 3rem;
   font-weight: 700;
 }
 .nav-desktop > ul li:last-child{
   width: 1.7rem;
   height: 0.1rem;
-  background: var(--white);
+  background: #ffffff;
   transform: rotate(90deg);
 }
 .nav-desktop ul li a:hover{
-  color: var(--blue);
+  color: #2d46b9;
 }
 .profile-container{
   display: flex;
@@ -103,5 +107,5 @@ header{
 }
 .profile-arrow{
   width: 1.2rem;
-  fill: var(--white);
+  fill: #ffffff;
 }

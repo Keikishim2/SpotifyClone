@@ -15,7 +15,7 @@
 .albums-content h2 {
   font-size: 3rem;
   margin-bottom: 1.5rem;
-  text-shadow: 0 0 0.1rem var(--black);
+  text-shadow: 0 0 0.1rem #000000;
 }
 
 /* 'Start listening to the best new releases' paragraph */
@@ -29,23 +29,23 @@
   padding: 1.5rem 4.5rem;
   border-radius: 3rem;
   outline: none;
-  background: var(--white);
-  color: var(--gray3);
+  background: #ffffff;
+  color: #616467;
   font-weight: 700;
-  border-color: var(--gray3);
+  border-color: #616467;
   letter-spacing: 2px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .albums-content button:hover {
-  background: var(--gray3);
-  color: var(--white);
+  background: #616467;
+  color: #ffffff;
 }
 
 .albums-content button:active {
-  background: var(--black);
-  border-color: var(--black);
+  background: #000000;
+  border-color: #000000;
 }
 
 .albums-cards-container {
@@ -104,14 +104,14 @@
 /* Song title */
 .album-info h2 {
   font-size: 1.75rem;
-  color: var(--gray2);
+  color: #919496;
   padding-top: 2rem;
 }
 
 /* Artist name */
 .album-info h4 {
   font-size: 1.5rem;
-  color: var(--gray1);
+  color: #c1c3c6;
   margin: 1rem 0;
 }
 
@@ -123,12 +123,12 @@
 /* Play now button */
 .album-info a {
   font-size: 1.5rem;
-  color: var(--green2);
+  color: #1db954;
   font-weight: 700;
   letter-spacing: 2px;
   transition: all 0.4s ease;
 }
 
 .album-info a:hover {
-  color: var(--green1);
+  color: #1ed760;
 }

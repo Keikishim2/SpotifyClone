@@ -1,6 +1,6 @@
 
 footer{
-  background: var(--black);
+  background: #000000;
   padding-top: 5rem;
   padding-bottom: 2rem;
 }
@@ -21,7 +21,7 @@ footer{
 .company-links li,
 .communities-links li,
 .useful-links li {
-  color: var(--white);
+  color: #ffffff;
   margin-bottom: 2rem;
   font-size: 1.5rem;
   font-weight: 500;
@@ -29,12 +29,12 @@ footer{
 .company-links li a:hover,
 .communities-links li a:hover,
 .useful-links li a:hover {
-  color: var(--green1);
+  color: #1ed760;
 }
 .company-links li:first-child,
 .communities-links li:first-child,
 .useful-links li:first-child {
-  color: var(--gray2);
+  color: #1db954;
   font-weight: 700;
   font-size: 1.3rem;
   letter-spacing: 0.5px;
@@ -58,11 +58,11 @@ footer{
 }
 .social-icons img{
   width: 2.3rem;
-  background: var(--white);
+  background: #ffffff;
   display: block;
 }
 .social-icons img:hover{
-  background: var(--green1);
+  background: #1ed760;
 }
 .country{
   text-align: right;
@@ -72,10 +72,10 @@ footer{
   display: inline-block;
 }
 .country a:hover > span {
-  color: var(--green1);
+  color: #1ed760;
 }
 .country span{
-  color: var(--gray2);
+  color: #1db954;
   vertical-align: super;
 }
 .country img{
@@ -100,8 +100,13 @@ footer{
 }
 .bottom-links a,
 .bottom-links span {
-  color: var(--gray2);
+  color: #1db954;
 }
 .bottom-links a:hover {
-  color: var(--green1);
+  color: #1ed760;
+}
+
+p{
+  font-size: 1.5rem;
+  color:#1db954;
 }
