@@ -23,7 +23,14 @@ header{
 .header-logo img{
   width: 9rem;
 }
-.profile{
+
+/*nav mobile / New added line */
+.nav-mobile {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.profile {
   border: 2px solid #ffffff;
   width: 3.5rem;
   height: 3.5rem;
@@ -31,17 +38,20 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 1.5rem;
+  margin-right: 5rem;
   cursor: pointer;
 }
-.profile svg{
+.profile svg {
   width: 1.6rem;
   fill: #ffffff;
 }
-.hamburger-menu{
-  display: none;
+.profile:hover {
+  border-color: #1ed760;
 }
-/* .hamburger-menu{
+.profile:hover > svg {
+  fill: #1ed760;
+}
+.hamburger-menu {
   width: 2rem;
   height: 3rem;
   position: absolute;
@@ -54,27 +64,31 @@ header{
   position: relative;
   transition: all 0.4s ease;
 }
+/* Hamburger menu lines */
 .hamburger-menu div,
 .hamburger-menu div::before,
-.hamburger-menu div::after{
+.hamburger-menu div::after {
   content: "";
   height: 0.3rem;
   width: 100%;
   background: #ffffff;
   border-radius: 1rem;
 }
-.hamburger-menu div::before{
+/* Top hamburger menu line */
+.hamburger-menu div::before {
   position: absolute;
   top: -0.7rem;
 }
-.hamburger-menu div::after{
+/* Bottom hamburger menu line */
+.hamburger-menu div::after {
   position: absolute;
   top: 0.7rem;
-} */
-
+}
 .nav-desktop{
   display: none;
 }
+
+/*nav desktop*/
 .nav-desktop ul{
   display: flex;
   align-items: center;
