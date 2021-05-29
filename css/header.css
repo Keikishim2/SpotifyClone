@@ -51,6 +51,7 @@ header{
 .profile:hover > svg {
   fill: #1ed760;
 }
+<<<<<<< HEAD
 .hamburger-menu {
   width: 2rem;
   height: 3rem;
@@ -84,6 +85,8 @@ header{
   position: absolute;
   top: 0.7rem;
 }
+=======
+>>>>>>> d6bf6cf60ade0ec873043b4a27b6c6fd06b5c476
 .nav-desktop{
   display: none;
 }
